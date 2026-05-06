@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Placar Global</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Placar Global — Jogos ao Vivo</h1>
+
+  <select id="sportSelect">
+    <option value="futebol">Futebol</option>
+    <option value="basquete">Basquete</option>
+    <option value="volei">Vôlei</option>
+  </select>
+
+  <button onclick="loadGames()">Carregar Jogos</button>
+  
+  <input id="search" placeholder="Pesquisar time, país ou liga..." oninput="filterResults()">
+
+  <div id="games"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

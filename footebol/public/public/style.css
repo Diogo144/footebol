@@ -1,0 +1,12 @@
+body {
+  background: #f4f4f4;
+  font-family: Arial;
+  padding: 20px;
+}
+
+.game-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
